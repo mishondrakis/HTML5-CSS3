@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+header {
+    height: 500px;
+    background-size: cover;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Layer-759_02.jpg");
+    background-repeat: no-repeat;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    background-color: rgba(186, 146, 94, 0.7);
+    margin: 0 auto;
+    position: relative;
+    width: 700px;
+    top: 20px
+}
+
+nav ul {
+    margin: 0;
+}
+
+ul li {
+    display: inline-block;
+    padding: 17px 14px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header h1 {
+    text-align: center;
+
+    margin: 80px 0 60px;
+    color: #D0CFCB;
+    text-shadow: 5px 5px 23px rgb(0, 0, 0);
+}
+
+header p {
+    color: #D0CFCB;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 17px;
+    font-weight: bold;
+    text-shadow: 4px 2px 7px #1C6EA4;
+}
+
+header button {
+    margin-top: 20px;
+    padding: 13px;
+    background-color: black;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    outline: none;
+}
+header button:hover{
+    color: black;
+    background-color: orange;
+    cursor: pointer;
+}
+header button:hover i{
+    color: black;
+}
+
+button i {
+    color: orange;
+}
+
+#industries {
+    padding: 0 30px 0;
+    text-align: center;
+    vertical-align: top;
+}
+
+#industries h2 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 45px;
+    margin: 15px 0 5px;
+}
+
+#industries article {
+    width: 24%;
+    text-align: left;
+    display: inline-block;
+    padding: 20px;
+    margin: 0 20px;
+}
+
+#industries i {
+    position: relative;
+    left: -50px;
+    top: 35px;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border-radius: 60%;
+
+}
+
+#industries h3 {
+    font-size: 14px;
+}
+
+#second {
+    text-align: center;
+    height: 100px;
+
+    background-image: url("images/steel-bg.jpg");
+}
+
+#second p {
+    padding-top: 27px;
+    color: black;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 20%;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+#second p:first-line {
+    color: orange;
+    font-weight: bold;
+}
+
+#chooseUs {
+    background: radial-gradient(rgba(0, 0, 0, 0.6) 7%, rgba(0, 0, 0, 0.6)),
+    url("images/background-choose-us.jpg");
+    text-align: center;
+    height: 300px;
+    background-size: cover;
+
+}
+
+#chooseUs h1 {
+    margin: 0;
+    padding: 47px;
+    color: white;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+#chooseUs article {
+    border: 1px solid orange;
+    color: white;
+    text-align: center;
+    margin: 0 10px;
+    display: inline-block;
+    width: 21%;
+    vertical-align: top;
+    padding: 0;
+    height: 110px;
+
+}
+
+#chooseUs article h3 {
+    font-weight: bold;
+    font-size: 17px;
+    margin: 17px 0 0;
+}
+
+#chooseUs article p {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    margin: 0;
+}
+
+#kurva {
+    background-image: url("images/consulting-woman.jpg");
+    height: 450px;
+    background-size: cover;
+
+}
+
+#first {
+    text-align: right;
+    background-color: rgba(236, 235, 231, 0.8);
+    float: right;
+    width: 30%;
+    height: 380px;
+    margin: 23px 23px 0 0;
+}
+
+#kurva article p {
+    margin: 0;
+    margin-top: 18px;
+    text-align: center;
+    padding: 23px;
+}
+
+#nested-article {
+    background-color: black;
+    height: 200px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#nested-article span {
+    float: right;
+    color: #D0CFCB;
+    margin: 15px 10px 0 0;
+    font-size: 10px;
+}
+
+#nested-article h2 {
+    color: white;
+    float: left;
+    margin: 30px 10px 10px 10px
+}
+
+#img {
+    text-align: center;
+    padding: 15px;
+
+}
+
+#img img {
+    vertical-align: top;
+    height: 40px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    height: 238px;
+    vertical-align: top;
+}
+
+#firstArticle {
+    width: 25%;
+    display: inline-block;
+    font-size: 12px;
+    padding: 15px;
+    margin-left: 45px;
+
+}
+
+#firstArticle h3 {
+    text-align: left;
+}
+
+#firstArticle p {
+    text-align: left;
+    margin-left: 25px;
+}
+
+#fontAwesome {
+    text-align: right;
+    margin-left: 20px;
+}
+
+#fontAwesome i {
+    padding: 13px;
+    background-color: grey;
+    border-radius: 45%;
+    color: black;
+
+    margin: 5px;
+}
+
+#secondArticle {
+    width: 27%;
+    display: inline-block;
+    font-size: 12px;
+    padding: 12px;
+    margin-left: 35px;
+    vertical-align: top;
+    height: 216px;
+}
+
+#secondArticle div {
+   width: 21%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 5px 0 15px;
+    height: 150px;
+}
+
+#secondArticle div a{
+    display: block;
+    color: orange;
+    margin: 4px 0;
+    text-decoration: none;
+}
+
+#thirdPhotos{
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 5px 0 15px;
+    height: 216px;
+}
+#thirdPhotos img{
+    width: 98px;
+    height: 65px;
+   margin: -2px;
+
+}

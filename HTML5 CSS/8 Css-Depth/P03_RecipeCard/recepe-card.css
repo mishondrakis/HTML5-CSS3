@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #333333;
+    padding: 20px;
+    width: 1450px;
+    font-family: sans-serif;
+
+}
+
+main {
+    background-image: url("images/food-image-bg.png");
+    background-size: cover;
+
+    margin: 80px 100px 0 100px;
+    padding: 100px;
+    text-align: center;
+    width: auto;
+    height: 654px;
+}
+
+main h1 {
+    color: white;
+    float: right;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-left: 80px;
+}
+
+
+
+div p {
+    margin-bottom: 15px;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+}
+
+span {
+    color: greenyellow;
+}
+
+ul li {
+    text-decoration: none;
+    text-align: justify;
+    list-style: none;
+    margin-left: 490px;
+    padding: 20px;
+    color: white;
+}
+
+.btn-primary{
+
+    margin: 20px 0 30px 270px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 19px;
+    width: 140px;
+    background: none;
+    color: white;
+}
+.btn-primary:hover{
+    background-color: #B5C640;
+    cursor: pointer;
+}

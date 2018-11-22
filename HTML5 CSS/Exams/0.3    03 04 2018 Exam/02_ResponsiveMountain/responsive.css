@@ -1,0 +1,172 @@
+@media all and (max-width: 480px) {
+
+    .caption hr {
+        border: none;
+        border-bottom: 3px solid royalblue;
+        width: 25%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    header.wrapper {
+        text-align: center;
+    }
+
+    .logo {
+        margin-top: 20px;
+    }
+
+    section.billboard {
+        padding: 0;
+        height: 520px;
+        width: 100%;
+    }
+
+    nav ul, .header-nav {
+        display: none;
+    }
+
+    .caption {
+        text-align: center;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .header-nav ul {
+        display: none;
+    }
+
+    .clearfix {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .animated h2 {
+        font-size: 37px;
+    }
+
+    .clearfix p {
+        width: 95%;
+        text-align: center;
+        border-bottom: 2px dotted grey;
+        margin-top: 10px;
+        padding-bottom: 15px;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+
+    .mountain-img {
+
+        height: 300px;
+        max-width: 100%;
+        width: 100%;
+        background-size: contain;
+    }
+    .title h2{
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .icon {
+        margin-top: 15px;
+        width: 35%;
+    }
+
+    .services-wrapper {
+        margin-top: 30px;
+    }
+
+    .title h3#clients-says {
+        margin: 0;
+        text-align: center;
+        color: darkgray;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .client {
+        text-align: center;
+        margin: 5px auto;
+        flex-direction: column;
+    }
+
+    .img-container img {
+        width: 100px;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .clearfix p {
+        width: 95%;
+        text-align: center;
+        border-top: 3px dotted #d4d4d4;
+        border-bottom: none;
+       margin-bottom: 0;
+        padding-top: 55px;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+
+    .clearfix li {
+    height: 350px;
+    }
+
+    h4{
+        margin: 10px 0;
+    }
+
+    .animated h2 {
+        margin: 20px 5px 10px;
+        padding: 10px;
+    }
+    .gnusni{
+        height: 360px;
+    }
+
+    .clearfix li {
+        height: 417px;
+    }
+
+    .view-bot {
+        width: 226px;
+        height: 300px;
+        margin-bottom: 50px;
+        border-radius: 5px;
+        max-width: 100%;
+    }
+
+    .date {
+        position: relative;
+        top: 50px;
+        left: 170px;
+
+    }
+
+    .testimonials.wrapper.clearfix li {
+        height:590px;
+        border-bottom: 5px dotted #d7d7d7;
+    }
+
+    .rights p {
+        font-family: 'Karma', serif;
+        color: darkgray;
+        text-align: center;
+    }
+
+    .rights a {
+        padding: 5px;
+    }
+    h5{
+        margin: 5px 0 0 0;
+    }
+    footer{
+        height: 100px;
+
+    }
+
+
+
+
+}

@@ -1,0 +1,94 @@
+
+
+body {
+   background-image: linear-gradient(rgba(84, 84, 168, 0.7),
+   rgba(84, 84, 168, 0.7)), url("images/bg-01.jpg");
+    text-align: center;
+}
+section {
+
+    width: 80%;
+    display: inline-block;
+    margin: 5px auto;
+    text-align: center;
+    vertical-align: top;
+    background-color: white;
+/ / background-image: url("images/bg-01.jpg");
+    margin-top: 50px;
+    padding: 30px;
+}
+
+img {
+    width: 30%;
+
+    display: inline-block;
+    margin-top: 50px;
+
+}
+
+label i {
+    position: relative;
+    top: 24px;
+    left: 10px;
+    color: #686868;
+}
+
+form {
+
+    display: inline-block;
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    float: right;
+}
+
+form label {
+    display: block;
+    width: 50%;
+    margin: 7px 0;
+
+}
+
+input {
+    width: 90%;
+    padding: 6px;
+    padding-left: 31px;
+    border-radius: 13px;
+    border: none;
+    outline: none;
+    background-color: #d6d6d6;
+    color: black;
+}
+
+label:hover i {
+    color: #5454a8;
+}
+
+form textarea {
+    box-sizing: border-box;
+}
+
+#message {
+    padding: 10px;
+    border-radius: 13px;
+    background-color: #d6d6d6;
+    color: black;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#buttom {
+    width: 50%;
+    color: white;
+    background-color: #846ADD;
+    text-align: center;
+    padding: 15px;
+}
+
+#buttom:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+

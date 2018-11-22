@@ -1,0 +1,51 @@
+form{
+    width: 40%;
+    text-align: left;
+    background-color: grey;
+    margin: 20px auto;
+    border: 2px solid red;
+    padding: 35px;
+
+}
+h1,p{
+    margin: 0;
+    margin-left: 30px;
+}
+ label{
+    display: block;
+    margin: 20px;
+     width: 90%;
+}
+ span{
+     padding-right:15px ;
+     vertical-align: top;
+ }
+
+textarea{
+    width: 70%;
+    margin-left: 20px;
+}
+#select{
+    width: 71%;
+    padding: 5px;
+    margin-left: 21px;
+}
+ input{
+     width: 70%;
+ }
+#lastSpan{
+    margin-left: 0px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+#submit{
+    width: 40%;
+    background-color: red;
+    padding: 15px;
+    margin-left: 113px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+}

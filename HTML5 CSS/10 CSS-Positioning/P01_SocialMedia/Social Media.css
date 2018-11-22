@@ -1,0 +1,34 @@
+section {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    background: black;
+}
+
+h2 {
+    color: white;
+    text-transform: uppercase;
+}
+
+li {
+
+    list-style: none;
+padding: 3px;
+}
+
+a {
+    color: #B5AF8C;
+    text-decoration: none;
+    text-transform: capitalize;
+
+
+}
+ul{
+    padding: 0;
+    text-align: left;
+}

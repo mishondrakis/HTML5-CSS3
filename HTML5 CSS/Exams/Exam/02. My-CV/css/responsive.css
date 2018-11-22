@@ -1,0 +1,183 @@
+@media all and (max-width: 1028px) and (min-width: 769px) {
+    body {
+        display: block;
+        margin: 0;
+    }
+
+    main {
+        display: block;
+        width: 100%;
+    }
+
+    #main {
+        display: block;
+        width: 100%;
+    }
+
+    #main aside {
+        width: 100%;
+        text-align: left;
+        display: block;
+        margin: 0;
+    }
+
+    aside img {
+        max-width: 100%;
+        border-radius: 53%;
+        height: auto;
+        position: relative;
+        left: 17%;
+        top: 69px;
+        width: 30%;
+
+    }
+
+    #skills {
+
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+
+    #work {
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    #skills {
+        padding-left: 15px;
+
+    }
+
+    #languages {
+        padding-left: 15px;
+        margin: 0 auto;
+        margin-top: 100px;
+        width: 90%;
+    }
+
+    #personal-info {
+        float: right;
+        margin-right: 30px;
+        padding-right: 30px;
+        right: 20%;
+        top: 64px;
+        position: relative;
+    }
+
+    #work h2 {
+        padding-left: 15px;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .job-article {
+        padding-left: 15px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #education {
+        margin: 0;
+        margin-top: 30px;
+
+    }
+
+    #education h2 {
+        padding-left: 55px;
+    }
+
+    .school {
+        width: 85%;
+        margin: 5px auto;
+    }
+
+}
+
+@media all  and (max-width: 768px) {
+    body {
+        display: block;
+        margin: 0;
+
+    }
+
+    main {
+        display: block;
+        width: 100%;
+    }
+
+    #main {
+        display: block;
+        width: 100%;
+    }
+
+    #main aside {
+        width: 100%;
+        text-align: left;
+
+    }
+
+    aside img {
+        max-width: 100%;
+        height: auto;
+        width: 95%;
+        /* padding: 8px; */
+        margin-top: 10px;
+        margin: 14px;
+
+    }
+
+    #education {
+
+    }
+
+    #education h2 {
+        width: 100%;
+        text-align: left;
+        margin: 10px auto;
+
+    }
+
+    .school {
+        width: 97%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .school div {
+        width: 100%;
+        display: block;
+        text-align: center;
+        background: none;
+        border: none;
+        outline: none;
+    }
+
+ .uni-img-container{
+     width: 100%;
+     text-align: center;
+
+ }
+
+ #academy-school{
+     max-width: 100%;
+     width: 26%;
+     height: 40%;
+
+     text-align: center;
+     margin: 0 auto;
+ }
+ #softuni{
+     max-width: 100%;
+     width: 26%;
+     height: 40%;
+     text-align: center;
+     margin: 0 auto;
+ }
+    .school div p {
+        padding-top: 7px;
+        text-align: left;
+    }
+
+}

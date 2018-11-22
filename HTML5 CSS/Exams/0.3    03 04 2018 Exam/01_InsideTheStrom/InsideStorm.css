@@ -1,0 +1,76 @@
+body {
+    text-align: center;
+    margin: 0px auto;
+    font-size: 24px;
+  padding: 20px;
+}
+
+div {
+
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+
+
+    width: 98%;
+    height: 197px;
+}
+h1{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+h4{
+
+    padding: 3px;
+    border-bottom: 1px dotted red;
+    width: 58%;
+   margin: 5px auto;
+border-top:  1px dotted red;
+    text-align: center;
+
+}
+p{
+    margin-left: 40px;
+    text-align: left;
+
+}
+#call911{
+    padding: 15px;
+    margin-top: 50px;
+   font-size: 30px;
+    color: red;
+    font-weight: bold;
+}
+
+img {
+
+    width: 20%;
+    height: 225px;
+    display: inline-block;
+}
+
+article {
+    width: 20%;
+    text-align: center;
+    background-color: #D3D3D3;
+    height: 225px;
+}
+h2{
+    font-size: 25px;
+    padding: 10px;
+}
+#button{
+    margin: 0;
+    padding: 16px;
+    font-size: 20px;
+    color: #FFF9EB;
+}
+button{
+
+    text-align: center;
+    background-color: #F2A462;
+
+
+}

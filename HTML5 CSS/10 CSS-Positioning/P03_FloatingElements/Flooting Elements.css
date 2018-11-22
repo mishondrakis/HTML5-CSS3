@@ -1,0 +1,32 @@
+
+div{
+    background: green;
+    padding: 12px;
+    border-radius: 12px;
+    text-align: center;
+    width: 20%;
+
+}
+
+.Left{
+margin-right: 20px;
+    float: left;
+
+}
+.Right{
+margin-left: 20px;
+    float: right;
+
+
+
+}
+.noFloat{
+    margin:0 auto;
+}
+
+p{
+
+
+    text-align: justify;
+background-color: wheat;
+}

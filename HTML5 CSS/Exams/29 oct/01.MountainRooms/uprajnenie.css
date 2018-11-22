@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:900');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900');
+
+
+body {
+    margin: 0;
+    font-family: 'Monserrat', sans-serif;
+}
+section{
+    text-align: center;
+    border: 2px solid grey;
+    width: 90%;
+    margin: 20px auto;
+}
+
+section h1{
+    text-align: center;
+    width: 80%;
+    margin: 30px auto;
+    text-transform: uppercase;
+}
+section article{
+    width: 28%;
+    display: inline-block;
+    margin: 10px auto;
+    padding: 8px;
+    text-align: left;
+}
+
+article p{
+    color: #807D82;
+}
+
+.fa-circle{
+    color: #EAE8E8;
+    font-size: 8px;
+    margin: 0 3px;
+}
+article h3{
+    text-transform: uppercase;
+}
+
+.Night{
+    color: #5f616e;
+    font-weight: bold;
+}
+.bluePrice{
+    color: blue;
+    font-weight: bold;
+}

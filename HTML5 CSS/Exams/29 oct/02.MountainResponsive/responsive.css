@@ -1,0 +1,103 @@
+@media all and (max-width: 480px) {
+
+    body .menu {
+        width: auto;
+        height: auto;
+        padding: 15px;
+    }
+
+    .menu span {
+        margin-left: 0;
+        width: auto;
+    }
+
+    .menu span:after {
+        content: '\2630';
+        margin: 0;
+        float: right;
+    }
+
+    .nav-options li {
+        display: none;
+    }
+
+    .about-us {
+
+        width: auto;
+
+        height: auto;
+        padding: 30px;
+    }
+
+    .about-us p {
+        height: auto;
+        width: 100%;
+
+    }
+
+    .info p {
+
+        width: 90%;
+        height: auto;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .info hr {
+
+        width: 27%;
+    }
+
+    .views {
+        display: block;
+        width: 100%;
+
+    }
+
+    .views img {
+        max-width: 100%;
+        width: 90%;
+        padding: 10px;
+    }
+
+    #second-heading {
+        margin-top: 80%;
+        width: 100%;
+    }
+
+    .why-us {
+        display: block;
+        margin-top: 15px;
+    }
+
+    .why-us article {
+        width: 100%;
+    }
+
+    .final-section {
+        display: block;
+        margin: 0;
+        height: auto;
+        width: auto;
+        text-align: center;
+
+    }
+    .headings{
+        margin-top: 20px;
+      font-size: 15px;
+        height: 100%;
+    }
+    .our-team{
+        display: block;
+        text-align: center;
+    }
+    .our-team article{
+        padding: 15px;
+    }
+
+    .final-section hr{
+        width: 20%;
+    }
+
+}
+

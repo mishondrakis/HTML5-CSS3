@@ -1,0 +1,29 @@
+
+body{
+    text-align: center;
+}
+
+section{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+display: inline-block;
+    margin-top: 20px;
+
+}
+.rows{
+    width: 32%;
+    display: inline-block;
+    height: 485px;
+    vertical-align: top;
+    background-color: #4C7ED2;
+}
+img{
+    width: 200px;
+    height: 140px;
+}
+article{
+    width: 32%;
+    box-sizing: border-box;
+    display: inline-block;
+}

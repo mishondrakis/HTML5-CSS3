@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,800');
+
+
+
+
+body{
+    font-family: 'Lato','Montserrat', sans-serif;
+    margin: 0;
+    font-size: 20px;
+}   1`
+
+header{
+    background-image: url("images/header.jpg");
+    padding: 25px;
+    background-size: cover;
+
+}
+header nav{
+    width: 60%;
+    margin: 0 auto;
+}
+header nav ul{
+    text-align: right;
+}
+nav li {
+   display: inline-block;
+
+}
+nav li a{
+    color: #aba6a3;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header article{
+    color: white;
+    padding: 10px;
+    width: 28%;
+    margin: 120px auto;
+    text-align: center;
+}
+
+header article p{
+   color: rgba(242, 240, 232,0.7);
+}
+#logo{
+
+    float: left;
+
+}
+
+header article button{
+    background-color: #CABC9A;
+    padding: 10px 17px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    text-transform: uppercase;
+    margin-top: 20px;
+}

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:900');
+
+body {
+    font-family: 'Source Code Pro', 'SansSerif';
+    background-color: #F4FCFF;
+    width: 100%;
+}
+
+form {
+    width: 50%;
+    margin: 50px auto;
+}
+
+form h1 {
+    width: 50%;
+    border-bottom: 3px solid green;
+    font-size: 55px;
+}
+
+form label {
+    display: block;
+    width: 50%;
+    margin: 15px 0;
+
+}
+
+input {
+    width: 90%;
+    padding: 6px;
+    padding-left: 31px;
+}
+
+i {
+    position: relative;
+    left: 10px;
+    top: 26px;
+
+}
+
+form label p {
+    margin: 0;
+
+    position: relative;
+    right: 11px;
+    top: 17px;
+}
+
+#span-password {
+    color: lightgrey;
+}
+
+#submit{
+    text-align: right;
+}
+#submit input {
+text-align: right;
+    padding: 10px 30px 10px 15px;
+    border-radius: 2px;
+    background-color: #31D47D;
+    outline: none;
+    border: none;
+    color: white;
+    width: 20%;
+    cursor: pointer;
+}

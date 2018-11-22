@@ -1,0 +1,99 @@
+@media all and (max-width: 639px) {
+
+    nav {
+        width: auto;
+        height: auto;
+    }
+
+    .nav-primary {
+        display: block;
+        padding: 0;
+        margin: 0;
+
+        text-align: center;
+    }
+
+    nav li {
+        padding: 15px 0 ;
+        margin-left: 8%;
+    }
+
+
+    .solo {
+        background: url(img/section-img.jpg) no-repeat center center;
+        background-size: cover;
+        height: auto;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    section p {
+        width: auto;
+    }
+
+    .solo {
+        padding: 0;
+    }
+    section h1{
+        margin: 0 auto;
+        text-align: center;
+        width: auto;
+        height: auto;
+        padding: 20px;
+    }
+    .solo-cta {
+
+        margin-top: 6rem;
+        margin-bottom: 6rem;
+    }
+    .second-row{
+       display: block;
+    }
+
+    .mixr-left, .urbeats-right {
+        width: auto;
+        display: block;
+       text-align: center;
+        padding: 5px;
+        height: 280px;
+
+    }
+
+
+    .sr-cta {
+        padding: .7rem 3rem;
+        margin-top: 4.5rem;
+    }
+
+
+
+    .studio {
+        background: url(img/studio-beats.png) no-repeat center center;
+        background-size: cover;
+        color: white;
+        height: 23rem;
+        width: auto;
+        text-align: center;
+        padding: 0;
+    }
+    .studio-cta{
+
+        margin-top: 3rem;
+}
+    .grid-gallery{
+        display: inline-block;
+        width: auto;
+
+    }
+
+    .product-img {
+        width: 48%;
+        max-width: 24rem;
+    }
+    section p {
+        width: 80%; /* text-align: center; */
+        margin: 0 auto;
+    }
+
+}

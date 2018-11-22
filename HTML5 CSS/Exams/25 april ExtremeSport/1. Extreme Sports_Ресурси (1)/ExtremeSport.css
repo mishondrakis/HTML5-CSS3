@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i');
+
+body {
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #D3D3D3;
+    text-align: center;
+}
+
+h1 {
+    margin: 0 auto;
+    padding: 50px;
+}
+
+section {
+    display: inline-block;
+    height: 584px;
+
+}
+
+article {
+    width: 24%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #87CEEB;
+    border: 2px solid blue;
+    border-radius: 20px;
+    height: 500px;
+    margin-right: 20px;
+
+}
+
+h3 {
+    margin-top: 0;
+}
+
+img {
+    width: 230px;
+    height: 150px;
+    padding: 25px;
+}
+
+article p {
+    margin: 3px 15px;
+    padding: 8px;
+}
+
+span {
+    font-weight: bold;
+}
+
+button {
+    outline: none;
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 7px 13px;
+    cursor: pointer;
+    background-color: #DDDDDD;
+}

@@ -1,0 +1,66 @@
+body {
+    background: #264658;
+    text-align: center;
+    margin: 5px auto;
+    margin-top: 130px;
+
+}
+
+article {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    background: #F5FAFC;
+    padding: 10px;
+    vertical-align: top;
+    height: 448px;
+    margin: 20px;
+}
+
+article img {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+article h1 {
+    color: #4C7ED2;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.episode {
+    color: #264658;
+    letter-spacing: 12px;
+    font-weight: lighter;
+}
+
+.goren {
+    margin-top: 50px;
+    width: 60%;
+    border-radius: 5px;
+    border: 3px solid deepskyblue;
+    background-color: #F5FAFC;;
+}
+
+.goren p {
+    color: deepskyblue;
+    font-weight: lighter;
+    font-size: 18px;
+    margin: 6px;
+}
+
+
+.middle{
+    margin-top: 50px;
+    width: 60%;
+    border-radius: 5px;
+   border: none;
+    background-color: #4C8ADD;;
+}
+.middle p{
+    color: white;
+    font-weight: lighter;
+    font-size: 18px;
+    margin: 9px;
+}

@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 1100px;
+    background-color: #E2D7AA;
+    margin: auto;
+    font-family: Roboto, SansSerif;
+}
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #484436;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.home {
+    color: #3A535F;
+    font-weight: bold;
+}
+
+ul li:first-of-type a {
+    color: #3A535F;
+    font-weight: bold;
+}
+
+ul li:last-of-type a {
+    color: #3A535F;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    font-family: Indie Flower, cursive;
+    font-size: 48px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+.img-container {
+    width: 100%;
+    height: 450px;
+    margin-top: 65px;
+
+}
+
+.img-container img {
+    width: 1100px;
+    height: 450px;
+    display: block;
+    margin: auto;
+}
+
+div img {
+    width: 900px;
+
+}
+
+main {
+
+    text-align: center;
+
+}
+
+main article img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+article {
+    width: 300px;
+
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+h3 a {
+    text-decoration: none;
+    margin-top: 0;
+}
+
+article p:first-of-type:first-letter {
+    font-size: 40px;
+
+}
+
+article p {
+    text-align: justify;
+}
+
+article p:last-of-type {
+    margin-top: 30px;
+
+}
+
+span a {
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+    background: url("images/bg2.jpg");
+    color: #E1D4C1;
+}
+
+article p:last-of-type span:first-of-type a::before {
+    content: url("images/comment.png");
+    position: relative;
+    right: 5px;
+    top: 7px;
+    padding: 10px;
+}
+footer{
+    text-align: center;
+   padding: 40px 0 64px;
+}
